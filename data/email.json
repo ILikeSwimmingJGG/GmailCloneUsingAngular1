@@ -1,0 +1,170 @@
+{
+  "1": {
+    "inbox": [
+      {
+        "id": 7,
+        "subject": "7 User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      },
+      {
+        "id": 11,
+        "subject": "11 User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      },
+      {
+        "id": 77,
+        "subject": "77 User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": true,
+        "hasAttachment": "N"
+      },
+      {
+        "id": 12,
+        "subject": "12 User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      },
+      {
+        "id": 111,
+        "subject": "111 User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      },
+      {
+        "id": 21,
+        "subject": "21 User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      },
+      {
+        "id": 13,
+        "subject": "13 User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      },
+      {
+        "id": 122,
+        "subject": "122 User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      },
+      {
+        "id": 133,
+        "subject": "133 User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      }
+    ],
+    "sent": [
+      {
+        "id": 8,
+        "subject": "8 user Sent ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      },
+      {
+        "id": 88,
+        "subject": "88 user Sent ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      }
+    ]
+  },
+  "2": {
+    "inbox": [
+      {
+        "id": 9,
+        "subject": "nine User Inbox Mail ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      }
+    ],
+    "sent": [
+      {
+        "id": 99,
+        "subject": "last user Sent ",
+        "from": "",
+        "to": "to@gmail.com",
+        "date_received": "2001/01/31 9:00PM",
+        "body": "This is further to our telecon a short while ago. It was really a pleasure talking to you and learning more about your career aspirations. ",
+        "cc": "cc@gmail.com",
+        "bcc": "bcc@gmail.com",
+        "markAsRead": false,
+        "hasAttachment": "N"
+      }
+    ]
+  }
+}

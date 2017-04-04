@@ -1,0 +1,76 @@
+
+<div id="signupbox" style=" margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <div class="panel-title">Sign Up</div>
+            <div style="float:right; font-size: 85%; position: relative; top:-10px">
+                <a id="signinlink" href="#/login">Sign In</a></div>
+        </div>
+        <div class="panel-body">
+            <form id="signupform" name="signupForm" class="form-horizontal" role="form">
+
+                <div id="signupalert" ng-if="errorMsg" class="alert alert-danger">
+                    <p>Error:</p>
+                    <span>{{errorMsg}}</span>
+                </div>
+                <div id="signupsuccess" ng-if="successMsg" class="alert alert-success ">
+                    <p>Success:</p>
+                    <span>{{successMsg}}</span>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-md-3 control-label">Email</label>
+                    <div class="col-md-9">
+                        <input type="email"
+                               ng-class="{'has-error': signupForm.email.$touched && signupForm.email.$invalid }"
+                               ng-required="true" class="form-control" ng-model="user_email" name="email"
+                               placeholder="Email Address">
+                        <span ng-if="signupForm.email.$touched && signupForm.email.$invalid" style="color:red">Please enter valid email</span>
+                        <div ng-messages="signupForm.email.$error" ng-show="signupForm.email.$touched">
+                            <div ng-messages-include="../../error_messages.html"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-md-3 control-label">Password</label>
+                    <div class="col-md-9">
+                        <input type="password"
+                               ng-class="{ 'has-error': signupForm.password.$touched && signupForm.password.$invalid }"
+                               ng-pattern111="/^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,}$/"
+                               ng-required="true" class="form-control" name="password" ng-model="user_pass"
+                               placeholder="Password">
+                        <span ng-if="signupForm.password.$touched && signupForm.password.$invalid" style="color:red">Valid password is required</span>
+                        <div ng-messages="signupForm.password.$error" ng-show="signupForm.password.$touched">
+                            <div ng-messages-include="../../error_messages.html"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="cpasswd" class="col-md-3 control-label">Confirm Password</label>
+                    <div class="col-md-9">
+                        <input type="password"
+                               ng-class="{'has-error':signupForm.cpassword.$touched && signupForm.cpassword.$invalid}"
+                               ng-required="true" ng-pattern111="{{user_pass}}" class="form-control" name="cpassword"
+                               ng-model="user_cpass" placeholder="Confirm Password">
+                        <span ng-if="signupForm.cpassword.$touched && signupForm.cpassword.$invalid" style="color:red">Password and confirm password does not match</span>
+                        <!--<div  ng-messages="signupForm.cpassword.$error" ng-show="signupForm.cpassword.$touched">-->
+                        <!--<div ng-messages-include="../../error_messages.html"></div>-->
+
+                        <!--</div>-->
+                    </div>
+                </div>
+                <div class="form-group">
+                    <!-- Button -->
+                    <div class="col-md-offset-3 col-md-9">
+                        <button id="btn-signup" type="button" ng-disabled="signupForm.$invalid"
+                                ng-click="registerUser()" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp
+                            Sign Up
+                        </button>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
