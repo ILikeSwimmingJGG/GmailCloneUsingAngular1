@@ -1,5 +1,12 @@
 # GmailCloneUsingAngular1
-Mail application using Angular js and bootstrap 
+
+Description : Mail application using Angular js
+Technologies used : Angular js,Node js, Grunt,Html,css,Bootstrap
+Functinalities completed : 1) User Registration
+                           2) User login/log out
+                           3) Fetch all mails for user in inbox,sent and drafts folder
+                           4) Onclick of mail open view mail
+                           5) Delete selected mail                           
 
 Step 1: Install  Node and Git  if not there in your system.
 
@@ -18,4 +25,5 @@ Step 5 : To execute project in your localhost server ,
         Now you can see this application running in localhost:9000 
         
         
+Note : Working on functinalities like - Addressbook,compose mail, reply/forward mail,send mail,save as draft mail and more
 
